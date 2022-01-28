@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+} 
+
+
+li, a {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 5;
+    text-decoration: none;
+    color: #361bff;
+}
+
+.navbar-menu {
+    list-style: none;
+  
+}
+
+.navbar-menu li {
+    display: inline-block;
+    padding: 0px 20px;
+   
+}
+
+.navbar-menu li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-menu li a:hover {
+    color: #912fd0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ffffff;
+}
+
+.name {
+  display: flex;
+  
+}
+
+.page-wrapper {
+    margin-top: 118px;
+    
+}
+
+.blue-bg {
+    background: linear-gradient(45deg, #009ad9 3%, #1b5aec 30%, #361bff 56%, #8357ff 94%);
+    min-height: 30vw;
+    
+    display: flex;
+ 
+   
+}
+
+.title-content {
+    color: #ffffff;
+    font-size: 25px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.title-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+}
+
+.title {
+    font-weight: 600;
+    font-size: 60px;
+    
+}
+
+.subtitle {
+    font-weight: 400;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.input-email {
+    max-width: 270px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    border-color: #1b5aec;
+    border-radius: 5px;
+}
+.input-submit {
+    max-width: 200px;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    color: #8357ff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 20;
+    border-color: #1b5aec ;
+    border-radius: 5px;
+}   
+
+.input-submit:hover {
+    background: #8357ff;
+    color: #ffffff;
+}
+
+.features-container {
+    margin-top: 70px; 
+}
+
+.features {
+  max-width: 80px;
+  margin: 0 auto;
+  color: #1b5aec;
+  padding-bottom: 23px;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: "icon description";
+    justify-content: center;
+    
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      width: 80vw;
+      padding: 15px;
+    }
+
+.description h3 {
+    line-height: 1.5;
+    font-size: 20px;
+  
+ 
+}
+
+.description p {
+    font-size: 18px;
+}
+
+
+.video-wrapper {
+    margin-top: 80px;
+    margin-bottom: 50px;
+   display: flex;
+   justify-content: center;
+}
+
+.video {
+    max-width: 900px;
+    height: 400px;
+    width: 100%;
+}
+
+
+
+.footer {
+    
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    max-width: 1440px;
+    max-height: 1200px;
+    background: linear-gradient(45deg, #009ad9 3%, #1b5aec 30%, #361bff 56%, #8357ff 94%);
+}
+    
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 50px 20px;
+}
+
+.footer-link:hover {
+    color: #912fd0;
+}
+
+.footer-link {
+    color: #ffffff;
+   font-size: 17px;
+  
+}
+
+.footer .logo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 15px 20px 15px;
+}
+
+
+.footer span {
+    color: #ffffff;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer span img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer span a {
+    color: #E73C68;
+    font-size: 13px;
+}
+
+@media (max-width: 790px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .blue-bg {
+      display: flex;
+      justify-content: center;
+      
+}
+
+    .title-wrap {
+        max-width: 500px; 
+       
+}
+
+.title-wrap h1 {
+    font-size: 23px;
+}
+
+    .title-wrap h2 {
+        font-size: 22px;
+    }
+
+    .video-wrapper {
+    margin: 20px;
+    
+}
+}
